@@ -91,7 +91,7 @@ resources:
     type: dockerOptions
     version:
       portMappings:
-        - 50833:50833
+        - 50833:50839
 
 # Environment variables for PROD environment
   - name: params-front-end-prod
@@ -100,7 +100,7 @@ resources:
       params:
         ENVIRONMENT: "production"
         NODE_ENV: "production"
-        PORT: 50833
+        PORT: 50839
 
 # PROD replica controller
   - name: replicas-front-end-prod

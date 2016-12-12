@@ -58,7 +58,7 @@ jobs:
         applyTo:
           - manifest: man-front-end
             image: img-front-end
-            port: 50833
+            port: 50839
       - IN: cluster-demo-ecs
       - TASK: managed
 
